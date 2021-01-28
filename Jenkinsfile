@@ -9,7 +9,7 @@ pipeline {
     environment {
         NEXUS_VERSION = "nexus3"
         NEXUS_PROTOCOL = "http"
-        NEXUS_URL = "54.224.86.186:8081"
+        NEXUS_URL = "13.56.252.21:8081"
         NEXUS_REPOSITORY = "vprofile_project2"
     	NEXUS_REPO_ID    = "vprofile_project2"
         NEXUS_CREDENTIAL_ID = "nexuslogin"
