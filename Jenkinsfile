@@ -48,6 +48,7 @@ pipeline {
                     echo 'Generated Analysis Result'
                 }
             }
+<<<<<<< HEAD
         }
         stage('CODE ANALYSIS with SONARQUBE') {
           
@@ -72,5 +73,8 @@ pipeline {
             }
           }
         }
+=======
+	}
+>>>>>>> fab8186da4c7ca997504344fb67c512852b0c988
     }
 }
